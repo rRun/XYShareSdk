@@ -10,5 +10,4 @@
 //腾讯分享的插件
 @interface QQShareModule : ShareModule
 
-
 @end

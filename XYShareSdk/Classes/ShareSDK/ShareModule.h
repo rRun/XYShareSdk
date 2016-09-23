@@ -7,28 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ShareDataModel.h"
 
 @class ShareSDKManager;
 @class ShareModule;
-@class ShareDataModel;
 
-typedef void (^SharedSuccessBlock)(ShareModule *module);//分享成功回调
+
+typedef void (^SharedSuccessBlock)(ShareModule *module,NSString *moduleName);//分享成功回调
 typedef void (^SharedFailBlock)(ShareModule *module,NSError *error);//分享失败回调
 
 //分享组件的父亲
 @interface ShareModule : NSObject
 //组件的url跳转的shcema
-@property (nonatomic,strong,readonly)NSString *shcema;
+@property (nonatomic,strong,readonly)NSMutableArray<NSString *> *moduleNames;
 
 
 //每一个module需要重写,初始化分享的组件
 -(BOOL)setUp;
 //每一个module需要重写,根据model分享
--(void)share:(ShareDataModel *)model;
+-(void)share:(NSString*)modueleName Model:(ShareDataModel *)model;
 //每一个module需要重写,处理回调
--(void)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck ;
+-(BOOL)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck ;
 
 //private : 不需要重写或改写
--(void)setShareModuleSchema:(NSString *)name;
+-(void)setShareModuleName:(NSString *)name;
 
 @end

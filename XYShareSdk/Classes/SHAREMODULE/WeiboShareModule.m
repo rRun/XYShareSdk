@@ -22,11 +22,11 @@
     return YES;
 }
 //每一个module需要重写,根据model分享
--(void)share:(ShareDataModel *)model{
+-(void)share:(NSString*)modueleName Model:(ShareDataModel *)model{
     //TODO:
 }
-//每一个module需要重写,处理回调
--(void)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck {
+//每一个module需要重写,处理回调 ,返回值：代表是否是该回调处理
+-(BOOL)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck {
     //TODO:
 }
 

@@ -8,8 +8,6 @@
 
 #import "QQShareModule.h"
 
-#import <WeChatSDK/WechatAuthSDK.h>
-
 //腾讯分享的插件
 @interface QQShareModule()
 
@@ -24,12 +22,10 @@
     
     return YES;
 }
-
 //每一个module需要重写,根据model分享
--(void)share:(ShareDataModel *)model{
+-(void)share:(NSString*)modueleName Model:(ShareDataModel *)model{
     //TODO:
 }
-
 //每一个module需要重写,处理回调
 -(void)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck {
     //TODO:
