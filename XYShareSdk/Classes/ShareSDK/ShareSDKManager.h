@@ -22,10 +22,10 @@
 +(instancetype)sharedManager;
 
 //添加分享组件是否成功
--(BOOL)addModule:(ShareModule *)module withSchema:(NSString *)moduleName;
+-(BOOL)addModule:(ShareModule *)module withModuleName:(NSString *)moduleName;
 
 //分享
--(void)share:(NSString*)schemaName Data:(ShareDataModel *) model SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBlock;
+-(void)share:(NSString*)moduleName Data:(ShareDataModel *) model SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBlock;
 
 #pragma mark - Private
 //需要在appdelegate 回调中实现<- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url >

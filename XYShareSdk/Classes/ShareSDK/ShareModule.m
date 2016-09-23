@@ -8,7 +8,7 @@
 
 #import "ShareModule.h"
 #import "ShareSDKManager.h"
-#import "ShareDataModel.h"
+
 
 @implementation ShareModule
 
@@ -17,7 +17,7 @@
     return NO;
 }
 
--(void)share:(ShareDataModel *)model{
+-(void)share:(NSString*)modueleName Model:(ShareDataModel *)model{
     
 }
 
@@ -25,9 +25,12 @@
     
 }
 
--(void)setShareModuleSchema:(NSString *)name{
+-(void)setShareModuleName:(NSString *)name{
     if ([name length]>0) {
-        _shcema = name;
+        if ([self.moduleNames count]<=0) {
+            _moduleNames = [NSMutableArray new];
+        }
+        [self.moduleNames addObject:name];
     }
 }
 

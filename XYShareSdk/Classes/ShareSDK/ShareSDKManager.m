@@ -14,6 +14,8 @@
 @property (nonatomic,copy)SharedSuccessBlock successBlock;
 @property (nonatomic,copy)SharedFailBlock failBlock;
 
+@property (nonatomic,strong)ShareModule *currentModule;
+
 @end
 
 @implementation ShareSDKManager
@@ -36,13 +38,13 @@ static ShareSDKManager* _instance = nil;
 -(instancetype)init{
     self = [super init];
     if (self) {
-        
+
     }
     return self;
 }
 
 //添加分享组件是否成功
--(BOOL)addModule:(ShareModule *)module withSchema:(NSString *)moduleName{
+-(BOOL)addModule:(ShareModule *)module withModuleName:(NSString *)moduleName{
     if (!module || [moduleName length]<=0) {
         return NO;
     }
@@ -52,12 +54,12 @@ static ShareSDKManager* _instance = nil;
     }
     
     for (ShareModule *module in temp) {
-        if ([module.shcema isEqualToString:moduleName]) {
+        if ([module.moduleNames containsObject:moduleName]) {
             return NO;
         }
     }
     
-    [module setShareModuleSchema:moduleName];
+    [module setShareModuleName:moduleName];
     
     if (![module respondsToSelector:@selector(setUp)]) {
         return NO;
@@ -71,18 +73,18 @@ static ShareSDKManager* _instance = nil;
 }
 
 //分享
--(void)share:(NSString*)schemaName Data:(ShareDataModel *) model SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBlock{
+-(void)share:(NSString*)moduleName Data:(ShareDataModel *) model SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBlock{
     
     self.successBlock = successBlock;
     self.failBlock = failBlock;
     
-    if ([schemaName length]<=0 || [_shareModules count]==0) {
+    if ([moduleName length]<=0 || [_shareModules count]==0) {
         return;
     }
     
     ShareModule *shareModule = nil;
     for (ShareModule *module in _shareModules) {
-        if ([module.shcema isEqualToString:schemaName]) {
+        if ([module.moduleNames containsObject:moduleName]) {
             shareModule = module;
             break;
         }
@@ -92,31 +94,38 @@ static ShareSDKManager* _instance = nil;
         return;
     }
     
-    [shareModule share:model];
+    self.currentModule = shareModule;
+    
+    [shareModule share:moduleName Model:model];
 }
 
 #pragma mark - Private
 //需要在appdelegate 回调中实现<- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url >
 -(void)handleShareUrl:(NSURL *)url{
-    NSString *urlSchame = url.scheme;
+   
+    if (self.currentModule) {
+        if ([self.currentModule handleUrl:url SuccessBlock:self.successBlock FailBlock:self.failBlock]) {
+            return;
+        }
+    }
     
+    NSString *urlSchame = url.scheme;
     if ([urlSchame length]<=0 || [_shareModules count]==0) {
         return;
     }
     
     ShareModule *shareModule = nil;
     for (ShareModule *module in _shareModules) {
-        if ([module.shcema isEqualToString:urlSchame]) {
+        if ([module handleUrl:url SuccessBlock:self.successBlock FailBlock:self.failBlock]) {
             shareModule = module;
             break;
         }
     }
     
     if (shareModule == nil) {
+        NSLog(@"未找到分享的组件");
         return;
     }
-    
-    [shareModule handleUrl:url SuccessBlock:self.successBlock FailBlock:self.failBlock];
     
 }
 
