@@ -16,6 +16,18 @@
 		A8501FD6E66E0EB977606FD33486E7C0 /* Pods-XYShareSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C7BD48D63B4B6E67F16A4E4ACE77A /* Pods-XYShareSdk_Tests-dummy.m */; };
 		C398B6FB95382D792E8C968B793DAB48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C92D16023A191EE8DEABC76F7491A9AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EA9CB34A1D94CB8400183943 /* ShareSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9CB3481D94CB8400183943 /* ShareSDKManager.h */; };
+		EA9CB34B1D94CB8400183943 /* ShareSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CB3491D94CB8400183943 /* ShareSDKManager.m */; };
+		EA9CB3521D94CBC200183943 /* ShareDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9CB3501D94CBC200183943 /* ShareDataModel.h */; };
+		EA9CB3531D94CBC200183943 /* ShareDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CB3511D94CBC200183943 /* ShareDataModel.m */; };
+		EA9CB3561D94CBDC00183943 /* ShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9CB3541D94CBDC00183943 /* ShareModule.h */; };
+		EA9CB3571D94CBDC00183943 /* ShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CB3551D94CBDC00183943 /* ShareModule.m */; };
+		EA9CB35C1D9502D800183943 /* QQShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9CB35A1D9502D800183943 /* QQShareModule.h */; };
+		EA9CB35D1D9502D800183943 /* QQShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CB35B1D9502D800183943 /* QQShareModule.m */; };
+		EA9CB3601D9502EC00183943 /* WeChatShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9CB35E1D9502EC00183943 /* WeChatShareModule.h */; };
+		EA9CB3611D9502EC00183943 /* WeChatShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CB35F1D9502EC00183943 /* WeChatShareModule.m */; };
+		EA9CB3641D95031A00183943 /* WeiboShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9CB3621D95031A00183943 /* WeiboShareModule.h */; };
+		EA9CB3651D95031A00183943 /* WeiboShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CB3631D95031A00183943 /* WeiboShareModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +69,18 @@
 		C4D51DA1E01D1BC3EC2CBB9F98E1A799 /* Pods-XYShareSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D378DF904E46D0C5CCADAF655A4F7E97 /* Pods-XYShareSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA9CB3481D94CB8400183943 /* ShareSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKManager.h; sourceTree = "<group>"; };
+		EA9CB3491D94CB8400183943 /* ShareSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSDKManager.m; sourceTree = "<group>"; };
+		EA9CB3501D94CBC200183943 /* ShareDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareDataModel.h; sourceTree = "<group>"; };
+		EA9CB3511D94CBC200183943 /* ShareDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareDataModel.m; sourceTree = "<group>"; };
+		EA9CB3541D94CBDC00183943 /* ShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareModule.h; sourceTree = "<group>"; };
+		EA9CB3551D94CBDC00183943 /* ShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareModule.m; sourceTree = "<group>"; };
+		EA9CB35A1D9502D800183943 /* QQShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQShareModule.h; sourceTree = "<group>"; };
+		EA9CB35B1D9502D800183943 /* QQShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQShareModule.m; sourceTree = "<group>"; };
+		EA9CB35E1D9502EC00183943 /* WeChatShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatShareModule.h; sourceTree = "<group>"; };
+		EA9CB35F1D9502EC00183943 /* WeChatShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatShareModule.m; sourceTree = "<group>"; };
+		EA9CB3621D95031A00183943 /* WeiboShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboShareModule.h; sourceTree = "<group>"; };
+		EA9CB3631D95031A00183943 /* WeiboShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboShareModule.m; sourceTree = "<group>"; };
 		EE2BCF4A5D22C8354F76E7B71DAA81DA /* Pods-XYShareSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0943F77ABF086B1C033E4AAD00A8373 /* Pods-XYShareSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYShareSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FC4C7BD48D63B4B6E67F16A4E4ACE77A /* Pods-XYShareSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYShareSdk_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -215,6 +239,8 @@
 		EA9CB3451D94C81100183943 /* MODEL */ = {
 			isa = PBXGroup;
 			children = (
+				EA9CB3501D94CBC200183943 /* ShareDataModel.h */,
+				EA9CB3511D94CBC200183943 /* ShareDataModel.m */,
 			);
 			path = MODEL;
 			sourceTree = "<group>";
@@ -222,6 +248,10 @@
 		EA9CB3461D94C84600183943 /* SHARESDK */ = {
 			isa = PBXGroup;
 			children = (
+				EA9CB3481D94CB8400183943 /* ShareSDKManager.h */,
+				EA9CB3491D94CB8400183943 /* ShareSDKManager.m */,
+				EA9CB3541D94CBDC00183943 /* ShareModule.h */,
+				EA9CB3551D94CBDC00183943 /* ShareModule.m */,
 			);
 			name = SHARESDK;
 			path = ShareSDK;
@@ -230,6 +260,12 @@
 		EA9CB3471D94C86100183943 /* SHAREMODULE */ = {
 			isa = PBXGroup;
 			children = (
+				EA9CB35A1D9502D800183943 /* QQShareModule.h */,
+				EA9CB35B1D9502D800183943 /* QQShareModule.m */,
+				EA9CB35E1D9502EC00183943 /* WeChatShareModule.h */,
+				EA9CB35F1D9502EC00183943 /* WeChatShareModule.m */,
+				EA9CB3621D95031A00183943 /* WeiboShareModule.h */,
+				EA9CB3631D95031A00183943 /* WeiboShareModule.m */,
 			);
 			path = SHAREMODULE;
 			sourceTree = "<group>";
@@ -275,7 +311,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9CB3521D94CBC200183943 /* ShareDataModel.h in Headers */,
+				EA9CB3561D94CBDC00183943 /* ShareModule.h in Headers */,
+				EA9CB3641D95031A00183943 /* WeiboShareModule.h in Headers */,
 				A7ED74EF4EDF4CB6A29EA4E953D57F47 /* XYShareSdk-umbrella.h in Headers */,
+				EA9CB34A1D94CB8400183943 /* ShareSDKManager.h in Headers */,
+				EA9CB3601D9502EC00183943 /* WeChatShareModule.h in Headers */,
+				EA9CB35C1D9502D800183943 /* QQShareModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +409,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9CB34B1D94CB8400183943 /* ShareSDKManager.m in Sources */,
+				EA9CB3611D9502EC00183943 /* WeChatShareModule.m in Sources */,
+				EA9CB3571D94CBDC00183943 /* ShareModule.m in Sources */,
+				EA9CB3531D94CBC200183943 /* ShareDataModel.m in Sources */,
 				312DDF717D2CF83827A8BB98178980FD /* XYShareSdk-dummy.m in Sources */,
+				EA9CB3651D95031A00183943 /* WeiboShareModule.m in Sources */,
+				EA9CB35D1D9502D800183943 /* QQShareModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
