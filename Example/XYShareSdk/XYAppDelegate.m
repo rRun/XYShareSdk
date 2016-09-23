@@ -7,6 +7,7 @@
 //
 
 #import "XYAppDelegate.h"
+#import <XYShareSdk/ShareSDKManager.h>
 
 @implementation XYAppDelegate
 

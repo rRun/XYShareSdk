@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## WeChatSDK
+
+Copyright weixin.cn
+
 ## XYShareSdk
 
 Copyright (c) 2016 hexy <hexy@cdfortis.com>

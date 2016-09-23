@@ -1,0 +1,1 @@
+../../../../../XYShareSdk/Classes/SHAREMODULE/WeChatShareModule.h

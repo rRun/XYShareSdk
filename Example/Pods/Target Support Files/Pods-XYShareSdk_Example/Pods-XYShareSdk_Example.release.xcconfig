@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/XYShareSdk"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/XYShareSdk/XYShareSdk.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "XYShareSdk"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WeChatSDK" "${PODS_ROOT}/Headers/Public/XYShareSdk"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/XYShareSdk" $(inherited) "${PODS_ROOT}/WeChatSDK/SDKExport"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/WeChatSDK" -isystem "${PODS_ROOT}/Headers/Public/XYShareSdk"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"XYShareSdk" -l"c++" -l"sqlite3.0" -l"z" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

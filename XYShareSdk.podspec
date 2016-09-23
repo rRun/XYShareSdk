@@ -5,11 +5,12 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
+# 命令：pod sepc lint 文件名.podspec --sources='xxx,xxx'
 
 Pod::Spec.new do |s|
   s.name             = 'XYShareSdk'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XYShareSdk.'
+  s.version          = '0.1.1'
+  s.summary          = '分享［包括，微信，qq,微博］'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +19,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    组件化，添加分享。
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/XYShareSdk'
+  s.homepage         = 'https://github.com/rRun/XYShareSdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hexy' => 'hexy@cdfortis.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/XYShareSdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rRun/XYShareSdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'XYShareSdk/Classes/**/*'
   
@@ -38,5 +39,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'WeChatSDK', '~> 1.7.3'
 end
+
+

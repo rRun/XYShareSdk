@@ -1,9 +1,9 @@
 {
   "name": "XYShareSdk",
-  "version": "0.1.0",
-  "summary": "A short description of XYShareSdk.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/XYShareSdk",
+  "version": "0.1.1",
+  "summary": "分享［包括，微信，qq,微博］",
+  "description": "组件化，添加分享。",
+  "homepage": "https://github.com/rRun/XYShareSdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "hexy": "hexy@cdfortis.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/XYShareSdk.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/rRun/XYShareSdk.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "XYShareSdk/Classes/**/*"
+  "source_files": "XYShareSdk/Classes/**/*",
+  "dependencies": {
+    "WeChatSDK": [
+      "~> 1.7.3"
+    ]
+  }
 }

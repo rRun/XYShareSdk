@@ -1,4 +1,7 @@
-use_frameworks!
+# use_frameworks!
+
+source "https://github.com/CocoaPods/Specs.git"
+source "https://github.com/rRun/xy_podSepcs.git"
 
 target 'XYShareSdk_Example' do
   pod 'XYShareSdk', :path => '../'

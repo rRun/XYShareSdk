@@ -56,13 +56,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>123485F95F6A54D785FB4F89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7636EC93E729BD025EE1D5B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>2B97AE24ED75DE0CE4B9CEC4</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -87,6 +80,19 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
+		<key>2E79D233393085DAB2846828</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-XYShareSdk_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>343DE4B6518C0795DF4CBEBE</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -102,18 +108,12 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34FE7BAE018EAAB1C70FC96D</key>
+		<key>35287F8C81255296D3FD7F1B</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>4755107E45A5DD70633B2894</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_XYShareSdk_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>3991A8ECF331B02A30848950</key>
 		<dict>
@@ -153,6 +153,19 @@ fi
 			<string>Pods/Target Support Files/Pods-XYShareSdk_Tests/Pods-XYShareSdk_Tests.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4755107E45A5DD70633B2894</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-XYShareSdk_Example.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>56E2191372AD86F970837630</key>
 		<dict>
@@ -297,7 +310,7 @@ fi
 				<string>6003F590195388D20070C39A</string>
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
-				<string>123485F95F6A54D785FB4F89</string>
+				<string>35287F8C81255296D3FD7F1B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -382,8 +395,8 @@ fi
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
-				<string>7636EC93E729BD025EE1D5B2</string>
-				<string>34FE7BAE018EAAB1C70FC96D</string>
+				<string>4755107E45A5DD70633B2894</string>
+				<string>2E79D233393085DAB2846828</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -660,7 +673,7 @@ fi
 				<string>6003F5B0195388D20070C39A</string>
 				<string>6003F5B2195388D20070C39A</string>
 				<string>6003F5B1195388D20070C39A</string>
-				<string>F844BD738B57A6AF1DE73807</string>
+				<string>94D51B12D83C053516397457</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -1226,19 +1239,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>7636EC93E729BD025EE1D5B2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_XYShareSdk_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>83EBA15A00137FBE353D48E9</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1269,6 +1269,13 @@ fi
 		<dict>
 			<key>fileRef</key>
 			<string>873B8AEA1B1F5CCA007FD442</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>94D51B12D83C053516397457</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E79D233393085DAB2846828</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1336,13 +1343,6 @@ fi
 			<string>../LICENSE</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F844BD738B57A6AF1DE73807</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34FE7BAE018EAAB1C70FC96D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
