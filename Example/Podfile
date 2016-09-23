@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XYShareSdk_Example' do
+  pod 'XYShareSdk', :path => '../'
+
+  target 'XYShareSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
