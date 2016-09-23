@@ -1,0 +1,6 @@
+framework module XYShareSdk {
+  umbrella header "XYShareSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

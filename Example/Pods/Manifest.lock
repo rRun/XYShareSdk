@@ -1,0 +1,16 @@
+PODS:
+  - XYShareSdk (0.1.0)
+
+DEPENDENCIES:
+  - XYShareSdk (from `../`)
+
+EXTERNAL SOURCES:
+  XYShareSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYShareSdk: 6629e3b214c0605db81b12d545ee40a03243c2bc
+
+PODFILE CHECKSUM: f1058b2739ba5706b4c3c8aa5a8f218a7f3249da
+
+COCOAPODS: 1.0.1
