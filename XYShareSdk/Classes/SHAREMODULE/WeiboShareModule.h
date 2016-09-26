@@ -15,6 +15,6 @@ static NSString * const WeiboShare = @"WeChatShare";//微信朋友
 //微博分享的插件
 @interface WeiboShareModule : ShareModule
 
--(instancetype)initWithKey:(NSString *)key;
+-(instancetype)initWithSecrtKey:(NSString *)key;
 
 @end

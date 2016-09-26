@@ -21,8 +21,8 @@
     
 }
 
--(void)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck {
-    
+-(BOOL)handleUrl:(NSURL *)url SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBolck {
+    return NO;
 }
 
 -(void)setShareModuleName:(NSString *)name{

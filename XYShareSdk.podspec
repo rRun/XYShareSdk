@@ -5,7 +5,7 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
-# 命令：pod sepc lint 文件名.podspec --sources='xxx,xxx'
+# 命令：pod sepc lint 文件名.podspec --sources='xxx,xxx' --use-libraries
 
 Pod::Spec.new do |s|
   s.name             = 'XYShareSdk'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                     组件化，添加分享。
+                     组件化，添加分享。可以用自带的qq,wechat,weibo插件，也可以自定义分享组件
                        DESC
 
   s.homepage         = 'https://github.com/rRun/XYShareSdk'
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'UIKit'
     s.dependency 'WeChatSDK', '~> 1.7.3'
     s.dependency 'TencentOpenAPI', '~> 3.1.0'
     s.dependency 'Weibo', '~> 2.4.2'

@@ -51,6 +51,9 @@
     
     //分享流程
     WXMediaMessage *message = [WXMediaMessage message];
+    message.title = model.title;
+    message.description = model.description;
+    
     if (model.preImage) {
         [message setThumbImage:model.preImage];//缩略图
     }
@@ -63,7 +66,7 @@
     
     SendMessageToWXReq *req = [[SendMessageToWXReq alloc]init];
     req.bText = NO;
-    req.message = model.description;
+    req.message = message;
     
     if ([modueleName isEqualToString:WeChatSpaceShare]) {
         req.scene = WXSceneTimeline;

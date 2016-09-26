@@ -142,6 +142,10 @@
 }
 
 #pragma mark - WeiboSDKDelegate
+- (void)didReceiveWeiboRequest:(WBBaseRequest *)request{
+    
+}
+
 - (void)didReceiveWeiboResponse:(WBBaseResponse *)response;
 {    
     if (response.statusCode == 0) {

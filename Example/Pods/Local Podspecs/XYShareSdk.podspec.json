@@ -2,7 +2,7 @@
   "name": "XYShareSdk",
   "version": "0.1.1",
   "summary": "分享［包括，微信，qq,微博］",
-  "description": "组件化，添加分享。",
+  "description": "组件化，添加分享。可以用自带的qq,wechat,weibo插件，也可以自定义分享组件",
   "homepage": "https://github.com/rRun/XYShareSdk",
   "license": {
     "type": "MIT",
