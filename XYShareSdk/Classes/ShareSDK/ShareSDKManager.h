@@ -7,14 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+
+//主框架
 #import "ShareDataModel.h"
 #import "ShareModule.h"
-#import "ShareView.h"
 
 //子组件
 #import "QQShareModule.h"
 #import "WeiboShareModule.h"
 #import "WeChatShareModule.h"
+
+//ui框架
+#import "ShareView.h"
 
 
 @interface ShareSDKManager : NSObject

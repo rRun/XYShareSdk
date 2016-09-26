@@ -5,7 +5,7 @@ source "https://github.com/rRun/xy_podSepcs.git"
 
 target 'XYShareSdk_Example' do
     pod 'XYShareSdk', :path => '../'
-
+    pod 'TencentOpenAPIV2_3'
   target 'XYShareSdk_Tests' do
     inherit! :search_paths
 

@@ -8,7 +8,7 @@
 
 #import "XYAppDelegate.h"
 #import <XYShareSdk/ShareSDKManager.h>
-
+#import <TencentOpenAPI/TencentApiInterface.h>
 @implementation XYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

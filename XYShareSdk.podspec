@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
     s.dependency 'WeChatSDK', '~> 1.7.3'
-    s.dependency 'TencentOpenAPIV2_3', '~> 3.1.0'
+    s.dependency 'TencentOpenAPIV2_3'
     s.dependency 'Weibo', '~> 2.4.2'
     s.dependency 'Aspects', '~> 1.4.1'
 
