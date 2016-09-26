@@ -9,12 +9,15 @@
 #import "ShareSDKManager.h"
 
 
-@interface ShareSDKManager()
+@interface ShareSDKManager(){
+    BOOL isShowedShareView;
+}
 
 @property (nonatomic,copy)SharedSuccessBlock successBlock;
 @property (nonatomic,copy)SharedFailBlock failBlock;
 
 @property (nonatomic,strong)ShareModule *currentModule;
+@property (nonatomic,strong)ShareDataModel *currentModel;
 
 @end
 
@@ -129,4 +132,47 @@ static ShareSDKManager* _instance = nil;
     
 }
 
+#pragma mark - UI
+-(void)setDefaultShareViewWithModuleNames:(NSArray *)moduleNames TitleArray:(NSArray *)titleArray ImageArry:(NSArray *)imageArr ProTitle:(NSString *)protitle{
+    
+    ShareView *shareView = [[ShareView alloc] initShareViewWithTitleArray:titleArray ImageArry:imageArr ProTitle:protitle];
+    
+    [shareView setBtnClick:^(NSInteger btnTag) {
+        NSLog(@"\n点击分享了第%ld个\n%@",btnTag,titleArray[btnTag]);
+        NSString *moduleName = moduleNames[btnTag];
+        if (!self.currentModel) {
+            return ;
+        }
+        [self share:moduleName Data:self.currentModel SuccessBlock:^(ShareModule *module, NSString *moduleName) {
+            if (self.successBlock) {
+                self.successBlock(module,moduleName);
+            }
+        } FailBlock:^(ShareModule *module, NSError *error) {
+            if (self.failBlock) {
+                self.failBlock(module,error);
+            }
+        }];
+        
+        isShowedShareView = NO;
+    }];
+    
+    _shareView = shareView;
+}
+
+-(void)showShareViewWithData:(ShareDataModel *) model SuccessBlock:(SharedSuccessBlock)successBlock FailBlock:(SharedFailBlock)failBlock{
+    if (!self.shareView) {
+        return;
+    }
+    
+    if (isShowedShareView) {
+        return;
+    }
+    isShowedShareView = YES;
+    
+    self.currentModel = model;
+    self.successBlock = successBlock;
+    self.failBlock = failBlock;
+    
+    [[UIApplication sharedApplication].keyWindow addSubview:self.shareView];
+}
 @end

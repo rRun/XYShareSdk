@@ -18,9 +18,9 @@ typedef void (^SharedFailBlock)(ShareModule *module,NSError *error);//分享失�
 
 //分享组件的父亲
 @interface ShareModule : NSObject
-//组件的url跳转的shcema
+//组件的url跳转的modulenames
 @property (nonatomic,strong,readonly)NSMutableArray<NSString *> *moduleNames;
-//当前分享的modulename
+//当前正在分享的modulename
 @property (nonatomic,strong)NSString *currentModuleName;
 
 @property (nonatomic,copy)SharedSuccessBlock successBlock;
