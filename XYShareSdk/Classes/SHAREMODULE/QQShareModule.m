@@ -7,8 +7,8 @@
 //
 
 #import "QQShareModule.h"
-#import <TencentOpenAPI/TencentOAuth.h>
-#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPIV2_3/TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPIV2_3/TencentOpenAPI/TencentApiInterface.h>
 
 //腾讯分享的插件
 @interface QQShareModule()<TencentSessionDelegate,UIAlertViewDelegate>{

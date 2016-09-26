@@ -24,7 +24,7 @@
     "WeChatSDK": [
       "~> 1.7.3"
     ],
-    "TencentOpenAPI": [
+    "TencentOpenAPIV2_3": [
       "~> 3.1.0"
     ],
     "Weibo": [

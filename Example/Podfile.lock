@@ -1,11 +1,11 @@
 PODS:
   - Aspects (1.4.1)
-  - TencentOpenAPI (3.1.0)
+  - TencentOpenAPIV2_3 (3.1.0)
   - WeChatSDK (1.7.3)
   - Weibo (2.4.2)
   - XYShareSdk (0.1.1):
     - Aspects (~> 1.4.1)
-    - TencentOpenAPI (~> 3.1.0)
+    - TencentOpenAPIV2_3 (~> 3.1.0)
     - WeChatSDK (~> 1.7.3)
     - Weibo (~> 2.4.2)
 
@@ -18,11 +18,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  TencentOpenAPI: 9f916058b87c85e89707a43711d2232e36be27aa
+  TencentOpenAPIV2_3: 39d78d050d2f91a06718ed648a75b3dae27bfa72
   WeChatSDK: 38c10234c1ace00ba131045134d3281079848d02
   Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
-  XYShareSdk: bcbc215e033026ece5052b29f27da45b85266413
+  XYShareSdk: f77a79f46cba69915609c4ab55d5d929b66f3df5
 
-PODFILE CHECKSUM: 6f3ca7d89542260a1c519a670686ed13fddf217e
+PODFILE CHECKSUM: 8678ff92eafc7f5e9ce5a55834962ee9de9d43c3
 
 COCOAPODS: 1.0.1

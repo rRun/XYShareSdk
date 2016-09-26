@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "sdkdef.h"
+#import "QQApiInterface.h"
 #import "TencentOAuthObject.h"
 
 @protocol TencentSessionDelegate;

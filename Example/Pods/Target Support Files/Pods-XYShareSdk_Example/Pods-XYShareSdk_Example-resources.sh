@@ -80,11 +80,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "TencentOpenAPI/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "TencentOpenAPIV2_3/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/Weibo/Weibo.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "TencentOpenAPI/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "TencentOpenAPIV2_3/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/Weibo/Weibo.bundle"
 fi
 

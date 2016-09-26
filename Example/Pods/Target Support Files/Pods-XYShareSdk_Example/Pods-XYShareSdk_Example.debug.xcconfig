@@ -1,9 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TencentOpenAPI/TencentOpenAPI"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TencentOpenAPIV2_3/TencentOpenAPI"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Aspects" "${PODS_ROOT}/Headers/Public/TencentOpenAPI" "${PODS_ROOT}/Headers/Public/WeChatSDK" "${PODS_ROOT}/Headers/Public/Weibo" "${PODS_ROOT}/Headers/Public/XYShareSdk"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Aspects" "${PODS_ROOT}/Headers/Public/TencentOpenAPIV2_3" "${PODS_ROOT}/Headers/Public/WeChatSDK" "${PODS_ROOT}/Headers/Public/Weibo" "${PODS_ROOT}/Headers/Public/XYShareSdk"
 LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Aspects" "$PODS_CONFIGURATION_BUILD_DIR/XYShareSdk" $(inherited) "${PODS_ROOT}/WeChatSDK/SDKExport" $(inherited) "${PODS_ROOT}/Weibo/libWeiboSDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Aspects" -isystem "${PODS_ROOT}/Headers/Public/TencentOpenAPI" -isystem "${PODS_ROOT}/Headers/Public/WeChatSDK" -isystem "${PODS_ROOT}/Headers/Public/Weibo" -isystem "${PODS_ROOT}/Headers/Public/XYShareSdk"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Aspects" -l"WeChatSDK" -l"WeiboSDK" -l"XYShareSdk" -l"c++" -l"iconv" -l"sqlite3" -l"sqlite3.0" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Aspects" -isystem "${PODS_ROOT}/Headers/Public/TencentOpenAPIV2_3" -isystem "${PODS_ROOT}/Headers/Public/WeChatSDK" -isystem "${PODS_ROOT}/Headers/Public/Weibo" -isystem "${PODS_ROOT}/Headers/Public/XYShareSdk"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Aspects" -l"WeChatSDK" -l"WeiboSDK" -l"XYShareSdk" -l"c++" -l"iconv" -l"sqlite3" -l"sqlite3.0" -l"stdc++" -l"z" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

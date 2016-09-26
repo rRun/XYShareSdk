@@ -246,7 +246,7 @@ SOFTWARE.</string>
 
 </string>
 			<key>Title</key>
-			<string>TencentOpenAPI</string>
+			<string>TencentOpenAPIV2_3</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
