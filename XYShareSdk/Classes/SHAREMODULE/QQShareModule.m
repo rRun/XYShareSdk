@@ -77,7 +77,7 @@
             QQApiImageObject *img = [QQApiImageObject objectWithData:imageData previewImageData:preImageData title:title description:description];
             req = [SendMessageToQQReq reqWithContent:img];
         }else{
-            QQApiURLObject *newObj = [[QQApiURLObject alloc] initWithURL:urlPath title:title description:description previewImageData:imageData targetContentType:QQApiURLTargetTypeNews];
+            QQApiURLObject *newObj = [[QQApiURLObject alloc] initWithURL:[NSURL URLWithString:urlPath] title:title description:description previewImageData:imageData targetContentType:QQApiURLTargetTypeNews];
             req = [SendMessageToQQReq reqWithContent:newObj];
         }
         

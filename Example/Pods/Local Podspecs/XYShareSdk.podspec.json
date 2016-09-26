@@ -19,6 +19,7 @@
     "ios": "7.0"
   },
   "source_files": "XYShareSdk/Classes/**/*",
+  "frameworks": "UIKit",
   "dependencies": {
     "WeChatSDK": [
       "~> 1.7.3"
