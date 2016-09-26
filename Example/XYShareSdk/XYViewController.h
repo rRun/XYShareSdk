@@ -10,4 +10,6 @@
 
 @interface XYViewController : UIViewController
 
+- (IBAction)showShareViewAction:(id)sender;
+
 @end
