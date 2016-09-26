@@ -22,6 +22,15 @@
   "dependencies": {
     "WeChatSDK": [
       "~> 1.7.3"
+    ],
+    "TencentOpenAPI": [
+      "~> 3.1.0"
+    ],
+    "Weibo": [
+      "~> 2.4.2"
+    ],
+    "Aspects": [
+      "~> 1.4.1"
     ]
   }
 }

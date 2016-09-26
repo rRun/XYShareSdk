@@ -20,7 +20,11 @@ typedef void (^SharedFailBlock)(ShareModule *module,NSError *error);//分享失�
 @interface ShareModule : NSObject
 //组件的url跳转的shcema
 @property (nonatomic,strong,readonly)NSMutableArray<NSString *> *moduleNames;
+//当前分享的modulename
+@property (nonatomic,strong)NSString *currentModuleName;
 
+@property (nonatomic,copy)SharedSuccessBlock successBlock;
+@property (nonatomic,copy)SharedFailBlock failBolck;
 
 //每一个module需要重写,初始化分享的组件
 -(BOOL)setUp;

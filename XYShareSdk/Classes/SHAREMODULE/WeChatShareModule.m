@@ -10,13 +10,9 @@
 #import <WeChatSDK/WXApi.h>
 
 //微信分享的插件
-@interface WeChatShareModule()<WXApiDelegate>
+@interface WeChatShareModule()<WXApiDelegate,UIAlertViewDelegate>
 
 @property (nonatomic,strong)NSString *key;
-@property (nonatomic,strong)NSString *currentModuleName;
-
-@property (nonatomic,copy)SharedSuccessBlock successBlock;
-@property (nonatomic,copy)SharedFailBlock failBolck;
 
 
 @end
@@ -30,6 +26,7 @@
     }
     return self;
 }
+
 //每一个module需要重写,初始化分享的组件
 -(BOOL)setUp{
     //TODO:
@@ -47,8 +44,7 @@
     
     if (![WXApi isWXAppInstalled]) {
         
-        UIAlertView *alerView = [[UIAlertView alloc]initWithTitle:@"" message:@"没有安装微信，请安装后再分享！" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
-        [alerView show];
+        [[[UIAlertView alloc]initWithTitle:@"提示" message:@"亲！你还没有安装微信" delegate:self cancelButtonTitle:@"好" otherButtonTitles:@"马上安装", nil] show];
         
         return;
     }
@@ -92,7 +88,7 @@
     return NO;
 }
 
-#pragma mark - 
+#pragma mark - WXApiDelegate
 
 /*! @brief 收到一个来自微信的请求，第三方应用程序处理完后调用sendResp向微信发送结果
  *
@@ -125,4 +121,17 @@
         }
     }
 }
+
+#pragma mark - Tool
+//没有安装qq 跳转到qq安装
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    NSString *downPath;
+    if(buttonIndex == 1){
+        NSLog(@"%@",[WXApi getWXAppInstallUrl]);
+        downPath = [WXApi getWXAppInstallUrl];
+        [[UIApplication sharedApplication]openURL:[NSURL URLWithString:downPath]];
+    }
+    
+}
+
 @end

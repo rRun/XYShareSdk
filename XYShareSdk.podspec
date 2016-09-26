@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    组件化，添加分享。
+                     组件化，添加分享。
                        DESC
 
   s.homepage         = 'https://github.com/rRun/XYShareSdk'
@@ -40,6 +40,10 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'WeChatSDK', '~> 1.7.3'
+    s.dependency 'TencentOpenAPI', '~> 3.1.0'
+    s.dependency 'Weibo', '~> 2.4.2'
+    s.dependency 'Aspects', '~> 1.4.1'
+
 end
 
 
