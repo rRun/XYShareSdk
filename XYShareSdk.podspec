@@ -32,7 +32,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'XYShareSdk/Classes/**/*'
-  
+
+  s.ios.vendored_frameworks = "TencentOpenAPIV2_3.framework"
+
   # s.resource_bundles = {
   #   'XYShareSdk' => ['XYShareSdk/Assets/*.png']
   # }

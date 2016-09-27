@@ -1,2547 +1,1054 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0180C47ECE6A86D4CC8DC04C06E6B1A4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4575B43A675399402195658F9B64E82C</string>
-				<string>D82529BDA7BD4AA1EE192E89146D6C78</string>
-				<string>F30C52A7F98BD603EA5FDA1199601796</string>
-				<string>C6BB7C1E43225A868C26C86C9252DA1D</string>
-				<string>3F64D5248D08958DA2E5C9BDB64A53DC</string>
-				<string>995C16E5C92A9F18CBDB20CCB10B1D06</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SHAREMODULE</string>
-			<key>path</key>
-			<string>SHAREMODULE</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>025F859CA97CA33D3A0741889EC3686E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Weibo-Weibo</string>
-			<key>target</key>
-			<string>92CB175EA3672955D8C4EAE5396A67BA</string>
-			<key>targetProxy</key>
-			<string>F519C0FAD1A356B52EA4AAE1B430E577</string>
-		</dict>
-		<key>0585F5C93749B863F300D6D672BC1EF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0CD22FB68C415F01D2B0D2378D587B5A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6BB7C1E43225A868C26C86C9252DA1D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CD5820EEE006114BBC798622B3FE71B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>433799C564927DB163D94BB6C25B62C3</string>
-				<string>8E49469CD284AD2D2B67E3E1A369BDD4</string>
-				<string>85AB01FBD5BABB90B95A8EAA6D070267</string>
-				<string>400FB8559B5A75DCE647D6A0DAEDFD54</string>
-				<string>14EE21FA9B538F205F2399DAB02DB16F</string>
-				<string>825002D07DD059EC04AD314FD8A4D7E3</string>
-				<string>0CD22FB68C415F01D2B0D2378D587B5A</string>
-				<string>29D075D4900CA1DC8E7C8C9824422728</string>
-				<string>A939F173E196D451C91AAB2FA2CBDE89</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0F485864511B62CD16698FBB52AEF13D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14EE21FA9B538F205F2399DAB02DB16F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFF5C12268F106F908456496DFD01D42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>178230C6FBABF7473A47A1C7A1C94750</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>XYShareSdk-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>198DAFB9C6BECD90ED413EFD1011E444</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3111C8B62C7A96F0169DFD573D07F5A2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Aspects/Aspects-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1AEFEF375A22374BA4AAB595F27D26CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1C4805D3C4F450E6FAE9B44C2499EF54</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E481AA49976C11FAD264F7C61EB029C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FB53C46B8E132DB62F9583212787FE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B5F40C9FEDF0B4F9C15F859AA6D16D2B</string>
-				<string>C83E78005F5F5935A1DF00D52FAFF1B8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MODEL</string>
-			<key>path</key>
-			<string>MODEL</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>212A771869D441E903D602B6886DD9BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22514C217650076B717101668A7C209B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Aspects</string>
-			<key>target</key>
-			<string>DBC9A0AF6D4571D059D2AF2422F2BD6E</string>
-			<key>targetProxy</key>
-			<string>26C5987308DB78693C9DD73563A81759</string>
-		</dict>
-		<key>236508AF085FC45202B6CFDEAECEFDC7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>42D9B30B60B788F851DDDF51D8E3B5CE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>25F7E9B7374F4AB98E97B10B6A4DFE92</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>97B028C13F042463957DA799916653D1</string>
-				<string>C7802EB980A4241FB247DEFC6241B524</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>26C5987308DB78693C9DD73563A81759</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DBC9A0AF6D4571D059D2AF2422F2BD6E</string>
-			<key>remoteInfo</key>
-			<string>Aspects</string>
-		</dict>
-		<key>2733DD3BFA9F217404436FD162527FBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1FB53C46B8E132DB62F9583212787FE4</string>
-				<string>0180C47ECE6A86D4CC8DC04C06E6B1A4</string>
-				<string>44E1601EC828009D530A8EFDFD70C98D</string>
-				<string>717A625FBF0DEDF8BA33CA4743E2A63E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29D075D4900CA1DC8E7C8C9824422728</key>
-		<dict>
-			<key>fileRef</key>
-			<string>995C16E5C92A9F18CBDB20CCB10B1D06</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A3B6859F80563B24383BD1B50CA615F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CE6FE4DF65C75BC6017CF9C99B080A8F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/XYShareSdk/XYShareSdk-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2A5D1425155C988A55F372312AB9F742</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>60AE36518511EAEB50677E74E5D0C25F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B23D850D1ED0C868F97963FF2E198F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3FA2475660FFC880302AD18E29B2E5FC</string>
-				<string>F325026B55060D3B22BEC0BAB5FA7344</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2E06144A2E40FDEF164A6D44332EF94A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Aspects-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E9A36856D1876B7FE0788E1714F7DA2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC475534D7355B4D0543656F2E9314F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2EDCEBD6F7310C90ECD0669420E580D7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>236508AF085FC45202B6CFDEAECEFDC7</string>
-				<string>95868C91C7D038C4E28918F42AF6707B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2FE635D551AE2A393967C3EB94BE794D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D06D456F522487FE8A371AA2112154FC</string>
-				<string>C4D8BABC48490AEA7DDCE37D2BD124A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>310ABB239CF60D033312438242D4AD2F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1AEFEF375A22374BA4AAB595F27D26CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3111C8B62C7A96F0169DFD573D07F5A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Aspects.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>320323F333E68F685BE0F9DC3F54E0BC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Weibo.bundle</string>
-			<key>path</key>
-			<string>Weibo.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>32B08ADBB1E41D97966D3CBD57982D6D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CE6FE4DF65C75BC6017CF9C99B080A8F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/XYShareSdk/XYShareSdk-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3705B460119C90862E34E087E22AF719</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6CC5B229FA5E377A803F342BC46EB2AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>377042A7540430C358C0A435A54EF83C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ShareButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38B59FA586C08E017537BF0494A6B2FF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6E2BFEDE15901B8ACC006711FB8309E3</string>
-				<string>B7ACDEE36B3EC405F6923F1EA055FFC4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3CAAF1B2C8EB107AB0F138D7DCACDEA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F64D5248D08958DA2E5C9BDB64A53DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3D25C651E293D1B92E303D4C3BE9D697</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BCB560E1DF1CB631A5E8D956988CF87D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E6922201E27860571580DA730FF574F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B4535F233D5EC03A7BCE4F8B2C180DE8</string>
-				<string>E5FA0FEEF6BDDF0B7976CD4A71862D90</string>
-				<string>783630331B3A26501CB2FB2301C41501</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Aspects</string>
-			<key>path</key>
-			<string>Aspects</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EE6A899F11F4A000F588E8CD6A316DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C2556DA82CC0DE7E477CC1041CE5B1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F64D5248D08958DA2E5C9BDB64A53DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WeiboShareModule.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FA2475660FFC880302AD18E29B2E5FC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>400FB8559B5A75DCE647D6A0DAEDFD54</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F96B3AA427A7B17ACA1D6AF619724216</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>42D9B30B60B788F851DDDF51D8E3B5CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>433799C564927DB163D94BB6C25B62C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D82529BDA7BD4AA1EE192E89146D6C78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>433CD3331B6C3787F473C941B61FC68F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F302CD3B306AF1ED96B9AF31FCDBC26C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44E1601EC828009D530A8EFDFD70C98D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C631699B746F9B19F96CAD0299AC3D84</string>
-				<string>F96B3AA427A7B17ACA1D6AF619724216</string>
-				<string>D0D44AC55EA0D7D5B4910EE58105645C</string>
-				<string>AFF5C12268F106F908456496DFD01D42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ShareSDK</string>
-			<key>path</key>
-			<string>ShareSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45406CDF63DAB33158DB05B8EF335B93</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4B6F5A2D8365D55A383E1668F8049946</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0CD5820EEE006114BBC798622B3FE71B</string>
-				<string>25F7E9B7374F4AB98E97B10B6A4DFE92</string>
-				<string>4F4CAB0715DD56926452BEB6765B5165</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7A763DA3FDB26A13EF161AA4F83C75AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>XYShareSdk</string>
-			<key>productName</key>
-			<string>XYShareSdk</string>
-			<key>productReference</key>
-			<string>9D329E53902C0FB30F8E61D47A657D5E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>4564EF99E430C88F9331BA88ACC3C01B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BC2FD9BFF6985AEC6C5B77DB643D38CE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4575B43A675399402195658F9B64E82C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>QQShareModule.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45C109078B41477725B2B597A738938B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E6922201E27860571580DA730FF574F</string>
-				<string>F39A5DA7F92882F9DD3C86D5B3BC66BF</string>
-				<string>74B1EEA97E41773C5902973FBEC7E937</string>
-				<string>9AB0C7FE61F3407960D6D340B5E3A3D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>475DF1763AF11147ED2F249C6AB322A7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-XYShareSdk_Example.a</string>
-			<key>path</key>
-			<string>libPods-XYShareSdk_Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4AE374286545E8E10C260DD94B2A7287</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WXApi.h</string>
-			<key>path</key>
-			<string>SDKExport/WXApi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B6F5A2D8365D55A383E1668F8049946</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2A3B6859F80563B24383BD1B50CA615F</string>
-				<string>32B08ADBB1E41D97966D3CBD57982D6D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4F4CAB0715DD56926452BEB6765B5165</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8BB5E20DFE04C1198F42C3CC101296D8</string>
-				<string>5FC80C6DEE0B6A7BBC45D42095A8CE10</string>
-				<string>B5369C9663E5AEF4F12E31AC506FEB85</string>
-				<string>8F8253D9FE1D4885BBBB5ED3F31406F6</string>
-				<string>E6BBAE10992CC8F11A065146D98FD6E1</string>
-				<string>79069BEE3A414B13632CD76C70545800</string>
-				<string>5E05206CCEFA5BCC787B3150071EB924</string>
-				<string>3CAAF1B2C8EB107AB0F138D7DCACDEA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52A88F953FAE8E2550BF5028B81F0C92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>554559F1CDFB7681A56783210214DCE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ShareView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55690EC76B79ADBF347F589F49D93081</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libAspects.a</string>
-			<key>path</key>
-			<string>libAspects.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>56EF1BCF142EACE6F21E803872214B0C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4535F233D5EC03A7BCE4F8B2C180DE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>57DA4F9524EA550E32D16117ABEBC695</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B23D850D1ED0C868F97963FF2E198F6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E05206CCEFA5BCC787B3150071EB924</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F30C52A7F98BD603EA5FDA1199601796</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5FC80C6DEE0B6A7BBC45D42095A8CE10</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E302509E9C7981613321D88FECB4391A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>60AE36518511EAEB50677E74E5D0C25F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>TencentOpenApi_IOS_Bundle.bundle</string>
-			<key>path</key>
-			<string>TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61F575EA92E899BE74DCFE1270353787</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>XYShareSdk</string>
-			<key>target</key>
-			<string>45406CDF63DAB33158DB05B8EF335B93</string>
-			<key>targetProxy</key>
-			<string>7F068722AB21BECAE66C999EF1375D02</string>
-		</dict>
-		<key>632D36141569A4B93417C18D70F81D72</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>644A201EBAEAF1CFC7CB1123F0EC1AE1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2733DD3BFA9F217404436FD162527FBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>XYShareSdk</string>
-			<key>path</key>
-			<string>XYShareSdk</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>678DC1C3278C5B1A4A98E5F9E763A2DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>57DA4F9524EA550E32D16117ABEBC695</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>69AD40C3875078575F7D3C9C29E7EBFE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-XYShareSdk_Tests.a</string>
-			<key>path</key>
-			<string>libPods-XYShareSdk_Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6ADFDFC2347494E8297ABF0C7B2FD17D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CC5B229FA5E377A803F342BC46EB2AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libWeChatSDK.a</string>
-			<key>path</key>
-			<string>SDKExport/libWeChatSDK.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E2BFEDE15901B8ACC006711FB8309E3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Weibo/ResourceBundle-Weibo-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>4.3</string>
-				<key>PRODUCT_NAME</key>
-				<string>Weibo</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>708562E94B87D69B423CA15C87DC8669</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B7267F5FD032778B821EA0992C98E4DB</string>
-				<string>4564EF99E430C88F9331BA88ACC3C01B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>717A625FBF0DEDF8BA33CA4743E2A63E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E302509E9C7981613321D88FECB4391A</string>
-				<string>377042A7540430C358C0A435A54EF83C</string>
-				<string>98FD1CCD44F67842AC2C3C2BD778A5A2</string>
-				<string>554559F1CDFB7681A56783210214DCE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UI</string>
-			<key>path</key>
-			<string>UI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>724B2CD6D3D7DD9EF9C33B935F529208</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72649F4922CEAFC2EBD174A5C7EEECF6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE6FE4DF65C75BC6017CF9C99B080A8F</string>
-				<string>BF176C02C1C251C78C7A29A3AEAF51B8</string>
-				<string>178230C6FBABF7473A47A1C7A1C94750</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/XYShareSdk</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74B1EEA97E41773C5902973FBEC7E937</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DF5086A18BD01AF3A15B346634288DC8</string>
-				<string>4AE374286545E8E10C260DD94B2A7287</string>
-				<string>D45BEF7375656D3222FCE4EF10DF89A8</string>
-				<string>3705B460119C90862E34E087E22AF719</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WeChatSDK</string>
-			<key>path</key>
-			<string>WeChatSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>782256D3B3748D914BA75778183B3E21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>783630331B3A26501CB2FB2301C41501</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3111C8B62C7A96F0169DFD573D07F5A2</string>
-				<string>7BE54E29B21FF739B0D551635A745D1F</string>
-				<string>2E06144A2E40FDEF164A6D44332EF94A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Aspects</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>787080847E9BB7F4D605267933710B3D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2EDCEBD6F7310C90ECD0669420E580D7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>93AB1035B0C5BE11FD50100360E399B0</string>
-				<string>2E9A36856D1876B7FE0788E1714F7DA2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>22514C217650076B717101668A7C209B</string>
-				<string>025F859CA97CA33D3A0741889EC3686E</string>
-				<string>61F575EA92E899BE74DCFE1270353787</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-XYShareSdk_Example</string>
-			<key>productName</key>
-			<string>Pods-XYShareSdk_Example</string>
-			<key>productReference</key>
-			<string>475DF1763AF11147ED2F249C6AB322A7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>79069BEE3A414B13632CD76C70545800</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98FD1CCD44F67842AC2C3C2BD778A5A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7A763DA3FDB26A13EF161AA4F83C75AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Aspects</string>
-			<key>target</key>
-			<string>DBC9A0AF6D4571D059D2AF2422F2BD6E</string>
-			<key>targetProxy</key>
-			<string>D1FE51C739BB00067AEAD0D5F71E4072</string>
-		</dict>
-		<key>7BE54E29B21FF739B0D551635A745D1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Aspects-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C71236595CC96058D348F19DF005C1D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>55690EC76B79ADBF347F589F49D93081</string>
-				<string>475DF1763AF11147ED2F249C6AB322A7</string>
-				<string>69AD40C3875078575F7D3C9C29E7EBFE</string>
-				<string>9D329E53902C0FB30F8E61D47A657D5E</string>
-				<string>320323F333E68F685BE0F9DC3F54E0BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CD3D19B93A2B99C05DDFC2295DEF30A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF6E287847E5B73AA45757F596D0BB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>F392F8F38449BFDE54F6A4C19D8795BC</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>45C109078B41477725B2B597A738938B</string>
-				<string>7C71236595CC96058D348F19DF005C1D</string>
-				<string>2FE635D551AE2A393967C3EB94BE794D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F068722AB21BECAE66C999EF1375D02</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>45406CDF63DAB33158DB05B8EF335B93</string>
-			<key>remoteInfo</key>
-			<string>XYShareSdk</string>
-		</dict>
-		<key>825002D07DD059EC04AD314FD8A4D7E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>554559F1CDFB7681A56783210214DCE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>82E18E34830EE56C9D2C1E3FBC3CD48E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0B6304822A452B6F53A1EEB9DBB403B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83A2DF763ED0C3480D347C104CDFE8A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E481AA49976C11FAD264F7C61EB029C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>85AB01FBD5BABB90B95A8EAA6D070267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C83E78005F5F5935A1DF00D52FAFF1B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BB5E20DFE04C1198F42C3CC101296D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4575B43A675399402195658F9B64E82C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8E49469CD284AD2D2B67E3E1A369BDD4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>377042A7540430C358C0A435A54EF83C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8F8253D9FE1D4885BBBB5ED3F31406F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C631699B746F9B19F96CAD0299AC3D84</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>90CF220396C848E122D4F531929424FE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>914F8A02DF2AC2084BBEC8AA75384568</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>83A2DF763ED0C3480D347C104CDFE8A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9220519374CDCDAAF28AC0BC8CA420A3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>708562E94B87D69B423CA15C87DC8669</string>
-			<key>buildPhases</key>
-			<array>
-				<string>678DC1C3278C5B1A4A98E5F9E763A2DD</string>
-				<string>A6F2EAAEBA5AD2C3CB4EA16DC6CABEDD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-XYShareSdk_Tests</string>
-			<key>productName</key>
-			<string>Pods-XYShareSdk_Tests</string>
-			<key>productReference</key>
-			<string>69AD40C3875078575F7D3C9C29E7EBFE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>92CB175EA3672955D8C4EAE5396A67BA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>38B59FA586C08E017537BF0494A6B2FF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>632D36141569A4B93417C18D70F81D72</string>
-				<string>0585F5C93749B863F300D6D672BC1EF1</string>
-				<string>914F8A02DF2AC2084BBEC8AA75384568</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Weibo-Weibo</string>
-			<key>productName</key>
-			<string>Weibo-Weibo</string>
-			<key>productReference</key>
-			<string>320323F333E68F685BE0F9DC3F54E0BC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>93AB1035B0C5BE11FD50100360E399B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>82E18E34830EE56C9D2C1E3FBC3CD48E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>95868C91C7D038C4E28918F42AF6707B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>724B2CD6D3D7DD9EF9C33B935F529208</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>97B028C13F042463957DA799916653D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98FD1CCD44F67842AC2C3C2BD778A5A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ShareView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>995C16E5C92A9F18CBDB20CCB10B1D06</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WeiboShareModule.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AB0C7FE61F3407960D6D340B5E3A3D2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C1054B6B8BD1B170105492E863596020</string>
-				<string>3EE6A899F11F4A000F588E8CD6A316DE</string>
-				<string>1C4805D3C4F450E6FAE9B44C2499EF54</string>
-				<string>BE7CF666505C7EB90B4FE4C5E1188CF4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Weibo</string>
-			<key>path</key>
-			<string>Weibo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D329E53902C0FB30F8E61D47A657D5E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libXYShareSdk.a</string>
-			<key>path</key>
-			<string>libXYShareSdk.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9E4406F3AB3EC39C1092108460F66CED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ResourceBundle-Weibo-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9FB446EF99DD7DCC503D87D83F4C0861</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>72649F4922CEAFC2EBD174A5C7EEECF6</string>
-				<string>644A201EBAEAF1CFC7CB1123F0EC1AE1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>XYShareSdk</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2A6FF208CEC4C2861F1E9D42D651453</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A6F2EAAEBA5AD2C3CB4EA16DC6CABEDD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>90CF220396C848E122D4F531929424FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A939F173E196D451C91AAB2FA2CBDE89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF176C02C1C251C78C7A29A3AEAF51B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABA188A51DE942BA7B22E79C0127456F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFF5C12268F106F908456496DFD01D42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ShareSDKManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B17ED88723CA6458025730B5236515B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4535F233D5EC03A7BCE4F8B2C180DE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Aspects.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5369C9663E5AEF4F12E31AC506FEB85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5F40C9FEDF0B4F9C15F859AA6D16D2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B5F40C9FEDF0B4F9C15F859AA6D16D2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ShareDataModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7267F5FD032778B821EA0992C98E4DB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B17ED88723CA6458025730B5236515B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B7ACDEE36B3EC405F6923F1EA055FFC4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Weibo/ResourceBundle-Weibo-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>4.3</string>
-				<key>PRODUCT_NAME</key>
-				<string>Weibo</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC2FD9BFF6985AEC6C5B77DB643D38CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCB560E1DF1CB631A5E8D956988CF87D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>TencentOpenAPI.framework</string>
-			<key>path</key>
-			<string>TencentOpenAPI/TencentOpenAPI.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE7CF666505C7EB90B4FE4C5E1188CF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9E4406F3AB3EC39C1092108460F66CED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Weibo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF176C02C1C251C78C7A29A3AEAF51B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>XYShareSdk-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1054B6B8BD1B170105492E863596020</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WeiboSDK.h</string>
-			<key>path</key>
-			<string>libWeiboSDK/WeiboSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2556DA82CC0DE7E477CC1041CE5B1C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libWeiboSDK.a</string>
-			<key>path</key>
-			<string>libWeiboSDK/libWeiboSDK.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4D8BABC48490AEA7DDCE37D2BD124A1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0F485864511B62CD16698FBB52AEF13D</string>
-				<string>52A88F953FAE8E2550BF5028B81F0C92</string>
-				<string>2B23D850D1ED0C868F97963FF2E198F6</string>
-				<string>782256D3B3748D914BA75778183B3E21</string>
-				<string>ABA188A51DE942BA7B22E79C0127456F</string>
-				<string>B17ED88723CA6458025730B5236515B2</string>
-				<string>BC2FD9BFF6985AEC6C5B77DB643D38CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-XYShareSdk_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-XYShareSdk_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C631699B746F9B19F96CAD0299AC3D84</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ShareModule.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6BB7C1E43225A868C26C86C9252DA1D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WeChatShareModule.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7802EB980A4241FB247DEFC6241B524</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E86668F20F252C440D1015B816BE59C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C83E78005F5F5935A1DF00D52FAFF1B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ShareDataModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD3C1EABD2FDE02CC4B8D15D740ED83C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E0D44EA2CA43A535F084E48871AFF74C</string>
-				<string>FC33E7B450A96626E3956F557A061B9C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CE6FE4DF65C75BC6017CF9C99B080A8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>XYShareSdk.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D06D456F522487FE8A371AA2112154FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CD3D19B93A2B99C05DDFC2295DEF30A</string>
-				<string>7CF6E287847E5B73AA45757F596D0BB5</string>
-				<string>F0B6304822A452B6F53A1EEB9DBB403B</string>
-				<string>6ADFDFC2347494E8297ABF0C7B2FD17D</string>
-				<string>212A771869D441E903D602B6886DD9BD</string>
-				<string>42D9B30B60B788F851DDDF51D8E3B5CE</string>
-				<string>724B2CD6D3D7DD9EF9C33B935F529208</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-XYShareSdk_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-XYShareSdk_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0D44AC55EA0D7D5B4910EE58105645C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ShareSDKManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1FE51C739BB00067AEAD0D5F71E4072</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DBC9A0AF6D4571D059D2AF2422F2BD6E</string>
-			<key>remoteInfo</key>
-			<string>Aspects</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>7C71236595CC96058D348F19DF005C1D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DBC9A0AF6D4571D059D2AF2422F2BD6E</string>
-				<string>787080847E9BB7F4D605267933710B3D</string>
-				<string>9220519374CDCDAAF28AC0BC8CA420A3</string>
-				<string>92CB175EA3672955D8C4EAE5396A67BA</string>
-				<string>45406CDF63DAB33158DB05B8EF335B93</string>
-			</array>
-		</dict>
-		<key>D45BEF7375656D3222FCE4EF10DF89A8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WXApiObject.h</string>
-			<key>path</key>
-			<string>SDKExport/WXApiObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7E640E0F46EE3F4F8AA74467DDBB0DD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>198DAFB9C6BECD90ED413EFD1011E444</string>
-				<string>DF56E8EB42AF0D52BB6C8B5FA5777E04</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D82529BDA7BD4AA1EE192E89146D6C78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>QQShareModule.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBC9A0AF6D4571D059D2AF2422F2BD6E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D7E640E0F46EE3F4F8AA74467DDBB0DD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CD3C1EABD2FDE02CC4B8D15D740ED83C</string>
-				<string>310ABB239CF60D033312438242D4AD2F</string>
-				<string>E8396AAECA7B0061597C8C1AB72E27FE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Aspects</string>
-			<key>productName</key>
-			<string>Aspects</string>
-			<key>productReference</key>
-			<string>55690EC76B79ADBF347F589F49D93081</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DF5086A18BD01AF3A15B346634288DC8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WechatAuthSDK.h</string>
-			<key>path</key>
-			<string>SDKExport/WechatAuthSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF56E8EB42AF0D52BB6C8B5FA5777E04</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3111C8B62C7A96F0169DFD573D07F5A2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Aspects/Aspects-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E0D44EA2CA43A535F084E48871AFF74C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7BE54E29B21FF739B0D551635A745D1F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E302509E9C7981613321D88FECB4391A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ShareButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E481AA49976C11FAD264F7C61EB029C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>WeiboSDK.bundle</string>
-			<key>path</key>
-			<string>libWeiboSDK/WeiboSDK.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5FA0FEEF6BDDF0B7976CD4A71862D90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Aspects.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6BBAE10992CC8F11A065146D98FD6E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D0D44AC55EA0D7D5B4910EE58105645C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E8396AAECA7B0061597C8C1AB72E27FE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>56EF1BCF142EACE6F21E803872214B0C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E86668F20F252C440D1015B816BE59C5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>F0B6304822A452B6F53A1EEB9DBB403B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-XYShareSdk_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F302CD3B306AF1ED96B9AF31FCDBC26C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-				<string>E86668F20F252C440D1015B816BE59C5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F30C52A7F98BD603EA5FDA1199601796</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WeChatShareModule.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F325026B55060D3B22BEC0BAB5FA7344</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F392F8F38449BFDE54F6A4C19D8795BC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9FB446EF99DD7DCC503D87D83F4C0861</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F39A5DA7F92882F9DD3C86D5B3BC66BF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D25C651E293D1B92E303D4C3BE9D697</string>
-				<string>2A5D1425155C988A55F372312AB9F742</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TencentOpenAPIV2_3</string>
-			<key>path</key>
-			<string>TencentOpenAPIV2_3</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F519C0FAD1A356B52EA4AAE1B430E577</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>92CB175EA3672955D8C4EAE5396A67BA</string>
-			<key>remoteInfo</key>
-			<string>Weibo-Weibo</string>
-		</dict>
-		<key>F96B3AA427A7B17ACA1D6AF619724216</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ShareModule.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC33E7B450A96626E3956F557A061B9C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5FA0FEEF6BDDF0B7976CD4A71862D90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC475534D7355B4D0543656F2E9314F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD22FB68C415F01D2B0D2378D587B5A /* WeChatShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB7C1E43225A868C26C86C9252DA1D /* WeChatShareModule.m */; };
+		14EE21FA9B538F205F2399DAB02DB16F /* ShareSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF5C12268F106F908456496DFD01D42 /* ShareSDKManager.m */; };
+		1AEFEF375A22374BA4AAB595F27D26CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		29D075D4900CA1DC8E7C8C9824422728 /* WeiboShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 995C16E5C92A9F18CBDB20CCB10B1D06 /* WeiboShareModule.m */; };
+		3CAAF1B2C8EB107AB0F138D7DCACDEA6 /* WeiboShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F64D5248D08958DA2E5C9BDB64A53DC /* WeiboShareModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400FB8559B5A75DCE647D6A0DAEDFD54 /* ShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B3AA427A7B17ACA1D6AF619724216 /* ShareModule.m */; };
+		433799C564927DB163D94BB6C25B62C3 /* QQShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D82529BDA7BD4AA1EE192E89146D6C78 /* QQShareModule.m */; };
+		56EF1BCF142EACE6F21E803872214B0C /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = B4535F233D5EC03A7BCE4F8B2C180DE8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DA4F9524EA550E32D16117ABEBC695 /* Pods-XYShareSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23D850D1ED0C868F97963FF2E198F6 /* Pods-XYShareSdk_Tests-dummy.m */; };
+		5E05206CCEFA5BCC787B3150071EB924 /* WeChatShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = F30C52A7F98BD603EA5FDA1199601796 /* WeChatShareModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC80C6DEE0B6A7BBC45D42095A8CE10 /* ShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E302509E9C7981613321D88FECB4391A /* ShareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79069BEE3A414B13632CD76C70545800 /* ShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FD1CCD44F67842AC2C3C2BD778A5A2 /* ShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825002D07DD059EC04AD314FD8A4D7E3 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554559F1CDFB7681A56783210214DCE4 /* ShareView.m */; };
+		82E18E34830EE56C9D2C1E3FBC3CD48E /* Pods-XYShareSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B6304822A452B6F53A1EEB9DBB403B /* Pods-XYShareSdk_Example-dummy.m */; };
+		83A2DF763ED0C3480D347C104CDFE8A3 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E481AA49976C11FAD264F7C61EB029C4 /* WeiboSDK.bundle */; };
+		85AB01FBD5BABB90B95A8EAA6D070267 /* ShareDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E78005F5F5935A1DF00D52FAFF1B8 /* ShareDataModel.m */; };
+		8BB5E20DFE04C1198F42C3CC101296D8 /* QQShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4575B43A675399402195658F9B64E82C /* QQShareModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E49469CD284AD2D2B67E3E1A369BDD4 /* ShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 377042A7540430C358C0A435A54EF83C /* ShareButton.m */; };
+		8F8253D9FE1D4885BBBB5ED3F31406F6 /* ShareModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C631699B746F9B19F96CAD0299AC3D84 /* ShareModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90CF220396C848E122D4F531929424FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		97B028C13F042463957DA799916653D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		A939F173E196D451C91AAB2FA2CBDE89 /* XYShareSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF176C02C1C251C78C7A29A3AEAF51B8 /* XYShareSdk-dummy.m */; };
+		B5369C9663E5AEF4F12E31AC506FEB85 /* ShareDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F40C9FEDF0B4F9C15F859AA6D16D2B /* ShareDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7802EB980A4241FB247DEFC6241B524 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		E0D44EA2CA43A535F084E48871AFF74C /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE54E29B21FF739B0D551635A745D1F /* Aspects-dummy.m */; };
+		E6BBAE10992CC8F11A065146D98FD6E1 /* ShareSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D44AC55EA0D7D5B4910EE58105645C /* ShareSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC33E7B450A96626E3956F557A061B9C /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FA0FEEF6BDDF0B7976CD4A71862D90 /* Aspects.m */; };
+		FC475534D7355B4D0543656F2E9314F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C5987308DB78693C9DD73563A81759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC9A0AF6D4571D059D2AF2422F2BD6E;
+			remoteInfo = Aspects;
+		};
+		7F068722AB21BECAE66C999EF1375D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45406CDF63DAB33158DB05B8EF335B93;
+			remoteInfo = XYShareSdk;
+		};
+		D1FE51C739BB00067AEAD0D5F71E4072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC9A0AF6D4571D059D2AF2422F2BD6E;
+			remoteInfo = Aspects;
+		};
+		F519C0FAD1A356B52EA4AAE1B430E577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CB175EA3672955D8C4EAE5396A67BA;
+			remoteInfo = "Weibo-Weibo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F485864511B62CD16698FBB52AEF13D /* Pods-XYShareSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYShareSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		178230C6FBABF7473A47A1C7A1C94750 /* XYShareSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYShareSdk-prefix.pch"; sourceTree = "<group>"; };
+		212A771869D441E903D602B6886DD9BD /* Pods-XYShareSdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYShareSdk_Example-resources.sh"; sourceTree = "<group>"; };
+		2B23D850D1ED0C868F97963FF2E198F6 /* Pods-XYShareSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYShareSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		2E06144A2E40FDEF164A6D44332EF94A /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		3111C8B62C7A96F0169DFD573D07F5A2 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		320323F333E68F685BE0F9DC3F54E0BC /* Weibo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weibo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		377042A7540430C358C0A435A54EF83C /* ShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareButton.m; sourceTree = "<group>"; };
+		3F64D5248D08958DA2E5C9BDB64A53DC /* WeiboShareModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiboShareModule.h; sourceTree = "<group>"; };
+		42D9B30B60B788F851DDDF51D8E3B5CE /* Pods-XYShareSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4575B43A675399402195658F9B64E82C /* QQShareModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQShareModule.h; sourceTree = "<group>"; };
+		475DF1763AF11147ED2F249C6AB322A7 /* libPods-XYShareSdk_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYShareSdk_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE374286545E8E10C260DD94B2A7287 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDKExport/WXApi.h; sourceTree = "<group>"; };
+		52A88F953FAE8E2550BF5028B81F0C92 /* Pods-XYShareSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYShareSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		554559F1CDFB7681A56783210214DCE4 /* ShareView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		55690EC76B79ADBF347F589F49D93081 /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AE36518511EAEB50677E74E5D0C25F /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		69AD40C3875078575F7D3C9C29E7EBFE /* libPods-XYShareSdk_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYShareSdk_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADFDFC2347494E8297ABF0C7B2FD17D /* Pods-XYShareSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYShareSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6CC5B229FA5E377A803F342BC46EB2AC /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDKExport/libWeChatSDK.a; sourceTree = "<group>"; };
+		724B2CD6D3D7DD9EF9C33B935F529208 /* Pods-XYShareSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		782256D3B3748D914BA75778183B3E21 /* Pods-XYShareSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYShareSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7BE54E29B21FF739B0D551635A745D1F /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		7CD3D19B93A2B99C05DDFC2295DEF30A /* Pods-XYShareSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYShareSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CF6E287847E5B73AA45757F596D0BB5 /* Pods-XYShareSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYShareSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FD1CCD44F67842AC2C3C2BD778A5A2 /* ShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		995C16E5C92A9F18CBDB20CCB10B1D06 /* WeiboShareModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeiboShareModule.m; sourceTree = "<group>"; };
+		9D329E53902C0FB30F8E61D47A657D5E /* libXYShareSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXYShareSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4406F3AB3EC39C1092108460F66CED /* ResourceBundle-Weibo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Weibo-Info.plist"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ABA188A51DE942BA7B22E79C0127456F /* Pods-XYShareSdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYShareSdk_Tests-resources.sh"; sourceTree = "<group>"; };
+		AFF5C12268F106F908456496DFD01D42 /* ShareSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareSDKManager.m; sourceTree = "<group>"; };
+		B17ED88723CA6458025730B5236515B2 /* Pods-XYShareSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4535F233D5EC03A7BCE4F8B2C180DE8 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		B5F40C9FEDF0B4F9C15F859AA6D16D2B /* ShareDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareDataModel.h; sourceTree = "<group>"; };
+		BC2FD9BFF6985AEC6C5B77DB643D38CE /* Pods-XYShareSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYShareSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BCB560E1DF1CB631A5E8D956988CF87D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = TencentOpenAPI/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		BF176C02C1C251C78C7A29A3AEAF51B8 /* XYShareSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYShareSdk-dummy.m"; sourceTree = "<group>"; };
+		C1054B6B8BD1B170105492E863596020 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		C2556DA82CC0DE7E477CC1041CE5B1C6 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		C631699B746F9B19F96CAD0299AC3D84 /* ShareModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareModule.h; sourceTree = "<group>"; };
+		C6BB7C1E43225A868C26C86C9252DA1D /* WeChatShareModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeChatShareModule.m; sourceTree = "<group>"; };
+		C83E78005F5F5935A1DF00D52FAFF1B8 /* ShareDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareDataModel.m; sourceTree = "<group>"; };
+		CE6FE4DF65C75BC6017CF9C99B080A8F /* XYShareSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYShareSdk.xcconfig; sourceTree = "<group>"; };
+		D0D44AC55EA0D7D5B4910EE58105645C /* ShareSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareSDKManager.h; sourceTree = "<group>"; };
+		D45BEF7375656D3222FCE4EF10DF89A8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDKExport/WXApiObject.h; sourceTree = "<group>"; };
+		D82529BDA7BD4AA1EE192E89146D6C78 /* QQShareModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QQShareModule.m; sourceTree = "<group>"; };
+		DF5086A18BD01AF3A15B346634288DC8 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDKExport/WechatAuthSDK.h; sourceTree = "<group>"; };
+		E302509E9C7981613321D88FECB4391A /* ShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareButton.h; sourceTree = "<group>"; };
+		E481AA49976C11FAD264F7C61EB029C4 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		E5FA0FEEF6BDDF0B7976CD4A71862D90 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0B6304822A452B6F53A1EEB9DBB403B /* Pods-XYShareSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYShareSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		F30C52A7F98BD603EA5FDA1199601796 /* WeChatShareModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeChatShareModule.h; sourceTree = "<group>"; };
+		F96B3AA427A7B17ACA1D6AF619724216 /* ShareModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0585F5C93749B863F300D6D672BC1EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F7E9B7374F4AB98E97B10B6A4DFE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B028C13F042463957DA799916653D1 /* Foundation.framework in Frameworks */,
+				C7802EB980A4241FB247DEFC6241B524 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9A36856D1876B7FE0788E1714F7DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC475534D7355B4D0543656F2E9314F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310ABB239CF60D033312438242D4AD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEFEF375A22374BA4AAB595F27D26CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F2EAAEBA5AD2C3CB4EA16DC6CABEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CF220396C848E122D4F531929424FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0180C47ECE6A86D4CC8DC04C06E6B1A4 /* SHAREMODULE */ = {
+			isa = PBXGroup;
+			children = (
+				4575B43A675399402195658F9B64E82C /* QQShareModule.h */,
+				D82529BDA7BD4AA1EE192E89146D6C78 /* QQShareModule.m */,
+				F30C52A7F98BD603EA5FDA1199601796 /* WeChatShareModule.h */,
+				C6BB7C1E43225A868C26C86C9252DA1D /* WeChatShareModule.m */,
+				3F64D5248D08958DA2E5C9BDB64A53DC /* WeiboShareModule.h */,
+				995C16E5C92A9F18CBDB20CCB10B1D06 /* WeiboShareModule.m */,
+			);
+			path = SHAREMODULE;
+			sourceTree = "<group>";
+		};
+		1C4805D3C4F450E6FAE9B44C2499EF54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E481AA49976C11FAD264F7C61EB029C4 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1FB53C46B8E132DB62F9583212787FE4 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				B5F40C9FEDF0B4F9C15F859AA6D16D2B /* ShareDataModel.h */,
+				C83E78005F5F5935A1DF00D52FAFF1B8 /* ShareDataModel.m */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		2733DD3BFA9F217404436FD162527FBB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FB53C46B8E132DB62F9583212787FE4 /* MODEL */,
+				0180C47ECE6A86D4CC8DC04C06E6B1A4 /* SHAREMODULE */,
+				44E1601EC828009D530A8EFDFD70C98D /* ShareSDK */,
+				717A625FBF0DEDF8BA33CA4743E2A63E /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A5D1425155C988A55F372312AB9F742 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60AE36518511EAEB50677E74E5D0C25F /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2FE635D551AE2A393967C3EB94BE794D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D06D456F522487FE8A371AA2112154FC /* Pods-XYShareSdk_Example */,
+				C4D8BABC48490AEA7DDCE37D2BD124A1 /* Pods-XYShareSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3705B460119C90862E34E087E22AF719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC5B229FA5E377A803F342BC46EB2AC /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D25C651E293D1B92E303D4C3BE9D697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB560E1DF1CB631A5E8D956988CF87D /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E6922201E27860571580DA730FF574F /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				B4535F233D5EC03A7BCE4F8B2C180DE8 /* Aspects.h */,
+				E5FA0FEEF6BDDF0B7976CD4A71862D90 /* Aspects.m */,
+				783630331B3A26501CB2FB2301C41501 /* Support Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		3EE6A899F11F4A000F588E8CD6A316DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2556DA82CC0DE7E477CC1041CE5B1C6 /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E1601EC828009D530A8EFDFD70C98D /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C631699B746F9B19F96CAD0299AC3D84 /* ShareModule.h */,
+				F96B3AA427A7B17ACA1D6AF619724216 /* ShareModule.m */,
+				D0D44AC55EA0D7D5B4910EE58105645C /* ShareSDKManager.h */,
+				AFF5C12268F106F908456496DFD01D42 /* ShareSDKManager.m */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		45C109078B41477725B2B597A738938B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E6922201E27860571580DA730FF574F /* Aspects */,
+				F39A5DA7F92882F9DD3C86D5B3BC66BF /* TencentOpenAPIV2_3 */,
+				74B1EEA97E41773C5902973FBEC7E937 /* WeChatSDK */,
+				9AB0C7FE61F3407960D6D340B5E3A3D2 /* Weibo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		644A201EBAEAF1CFC7CB1123F0EC1AE1 /* XYShareSdk */ = {
+			isa = PBXGroup;
+			children = (
+				2733DD3BFA9F217404436FD162527FBB /* Classes */,
+			);
+			path = XYShareSdk;
+			sourceTree = "<group>";
+		};
+		717A625FBF0DEDF8BA33CA4743E2A63E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E302509E9C7981613321D88FECB4391A /* ShareButton.h */,
+				377042A7540430C358C0A435A54EF83C /* ShareButton.m */,
+				98FD1CCD44F67842AC2C3C2BD778A5A2 /* ShareView.h */,
+				554559F1CDFB7681A56783210214DCE4 /* ShareView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		72649F4922CEAFC2EBD174A5C7EEECF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6FE4DF65C75BC6017CF9C99B080A8F /* XYShareSdk.xcconfig */,
+				BF176C02C1C251C78C7A29A3AEAF51B8 /* XYShareSdk-dummy.m */,
+				178230C6FBABF7473A47A1C7A1C94750 /* XYShareSdk-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XYShareSdk";
+			sourceTree = "<group>";
+		};
+		74B1EEA97E41773C5902973FBEC7E937 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DF5086A18BD01AF3A15B346634288DC8 /* WechatAuthSDK.h */,
+				4AE374286545E8E10C260DD94B2A7287 /* WXApi.h */,
+				D45BEF7375656D3222FCE4EF10DF89A8 /* WXApiObject.h */,
+				3705B460119C90862E34E087E22AF719 /* Frameworks */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		783630331B3A26501CB2FB2301C41501 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3111C8B62C7A96F0169DFD573D07F5A2 /* Aspects.xcconfig */,
+				7BE54E29B21FF739B0D551635A745D1F /* Aspects-dummy.m */,
+				2E06144A2E40FDEF164A6D44332EF94A /* Aspects-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		7C71236595CC96058D348F19DF005C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55690EC76B79ADBF347F589F49D93081 /* libAspects.a */,
+				475DF1763AF11147ED2F249C6AB322A7 /* libPods-XYShareSdk_Example.a */,
+				69AD40C3875078575F7D3C9C29E7EBFE /* libPods-XYShareSdk_Tests.a */,
+				9D329E53902C0FB30F8E61D47A657D5E /* libXYShareSdk.a */,
+				320323F333E68F685BE0F9DC3F54E0BC /* Weibo.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F392F8F38449BFDE54F6A4C19D8795BC /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				45C109078B41477725B2B597A738938B /* Pods */,
+				7C71236595CC96058D348F19DF005C1D /* Products */,
+				2FE635D551AE2A393967C3EB94BE794D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB0C7FE61F3407960D6D340B5E3A3D2 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				C1054B6B8BD1B170105492E863596020 /* WeiboSDK.h */,
+				3EE6A899F11F4A000F588E8CD6A316DE /* Frameworks */,
+				1C4805D3C4F450E6FAE9B44C2499EF54 /* Resources */,
+				BE7CF666505C7EB90B4FE4C5E1188CF4 /* Support Files */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		9FB446EF99DD7DCC503D87D83F4C0861 /* XYShareSdk */ = {
+			isa = PBXGroup;
+			children = (
+				72649F4922CEAFC2EBD174A5C7EEECF6 /* Support Files */,
+				644A201EBAEAF1CFC7CB1123F0EC1AE1 /* XYShareSdk */,
+			);
+			name = XYShareSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BE7CF666505C7EB90B4FE4C5E1188CF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E4406F3AB3EC39C1092108460F66CED /* ResourceBundle-Weibo-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Weibo";
+			sourceTree = "<group>";
+		};
+		C4D8BABC48490AEA7DDCE37D2BD124A1 /* Pods-XYShareSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F485864511B62CD16698FBB52AEF13D /* Pods-XYShareSdk_Tests-acknowledgements.markdown */,
+				52A88F953FAE8E2550BF5028B81F0C92 /* Pods-XYShareSdk_Tests-acknowledgements.plist */,
+				2B23D850D1ED0C868F97963FF2E198F6 /* Pods-XYShareSdk_Tests-dummy.m */,
+				782256D3B3748D914BA75778183B3E21 /* Pods-XYShareSdk_Tests-frameworks.sh */,
+				ABA188A51DE942BA7B22E79C0127456F /* Pods-XYShareSdk_Tests-resources.sh */,
+				B17ED88723CA6458025730B5236515B2 /* Pods-XYShareSdk_Tests.debug.xcconfig */,
+				BC2FD9BFF6985AEC6C5B77DB643D38CE /* Pods-XYShareSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-XYShareSdk_Tests";
+			path = "Target Support Files/Pods-XYShareSdk_Tests";
+			sourceTree = "<group>";
+		};
+		D06D456F522487FE8A371AA2112154FC /* Pods-XYShareSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3D19B93A2B99C05DDFC2295DEF30A /* Pods-XYShareSdk_Example-acknowledgements.markdown */,
+				7CF6E287847E5B73AA45757F596D0BB5 /* Pods-XYShareSdk_Example-acknowledgements.plist */,
+				F0B6304822A452B6F53A1EEB9DBB403B /* Pods-XYShareSdk_Example-dummy.m */,
+				6ADFDFC2347494E8297ABF0C7B2FD17D /* Pods-XYShareSdk_Example-frameworks.sh */,
+				212A771869D441E903D602B6886DD9BD /* Pods-XYShareSdk_Example-resources.sh */,
+				42D9B30B60B788F851DDDF51D8E3B5CE /* Pods-XYShareSdk_Example.debug.xcconfig */,
+				724B2CD6D3D7DD9EF9C33B935F529208 /* Pods-XYShareSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-XYShareSdk_Example";
+			path = "Target Support Files/Pods-XYShareSdk_Example";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F392F8F38449BFDE54F6A4C19D8795BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FB446EF99DD7DCC503D87D83F4C0861 /* XYShareSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F39A5DA7F92882F9DD3C86D5B3BC66BF /* TencentOpenAPIV2_3 */ = {
+			isa = PBXGroup;
+			children = (
+				3D25C651E293D1B92E303D4C3BE9D697 /* Frameworks */,
+				2A5D1425155C988A55F372312AB9F742 /* Resources */,
+			);
+			path = TencentOpenAPIV2_3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F4CAB0715DD56926452BEB6765B5165 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB5E20DFE04C1198F42C3CC101296D8 /* QQShareModule.h in Headers */,
+				5FC80C6DEE0B6A7BBC45D42095A8CE10 /* ShareButton.h in Headers */,
+				B5369C9663E5AEF4F12E31AC506FEB85 /* ShareDataModel.h in Headers */,
+				8F8253D9FE1D4885BBBB5ED3F31406F6 /* ShareModule.h in Headers */,
+				E6BBAE10992CC8F11A065146D98FD6E1 /* ShareSDKManager.h in Headers */,
+				79069BEE3A414B13632CD76C70545800 /* ShareView.h in Headers */,
+				5E05206CCEFA5BCC787B3150071EB924 /* WeChatShareModule.h in Headers */,
+				3CAAF1B2C8EB107AB0F138D7DCACDEA6 /* WeiboShareModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8396AAECA7B0061597C8C1AB72E27FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EF1BCF142EACE6F21E803872214B0C /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45406CDF63DAB33158DB05B8EF335B93 /* XYShareSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6F5A2D8365D55A383E1668F8049946 /* Build configuration list for PBXNativeTarget "XYShareSdk" */;
+			buildPhases = (
+				0CD5820EEE006114BBC798622B3FE71B /* Sources */,
+				25F7E9B7374F4AB98E97B10B6A4DFE92 /* Frameworks */,
+				4F4CAB0715DD56926452BEB6765B5165 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A763DA3FDB26A13EF161AA4F83C75AB /* PBXTargetDependency */,
+			);
+			name = XYShareSdk;
+			productName = XYShareSdk;
+			productReference = 9D329E53902C0FB30F8E61D47A657D5E /* libXYShareSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		787080847E9BB7F4D605267933710B3D /* Pods-XYShareSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDCEBD6F7310C90ECD0669420E580D7 /* Build configuration list for PBXNativeTarget "Pods-XYShareSdk_Example" */;
+			buildPhases = (
+				93AB1035B0C5BE11FD50100360E399B0 /* Sources */,
+				2E9A36856D1876B7FE0788E1714F7DA2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22514C217650076B717101668A7C209B /* PBXTargetDependency */,
+				025F859CA97CA33D3A0741889EC3686E /* PBXTargetDependency */,
+				61F575EA92E899BE74DCFE1270353787 /* PBXTargetDependency */,
+			);
+			name = "Pods-XYShareSdk_Example";
+			productName = "Pods-XYShareSdk_Example";
+			productReference = 475DF1763AF11147ED2F249C6AB322A7 /* libPods-XYShareSdk_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9220519374CDCDAAF28AC0BC8CA420A3 /* Pods-XYShareSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708562E94B87D69B423CA15C87DC8669 /* Build configuration list for PBXNativeTarget "Pods-XYShareSdk_Tests" */;
+			buildPhases = (
+				678DC1C3278C5B1A4A98E5F9E763A2DD /* Sources */,
+				A6F2EAAEBA5AD2C3CB4EA16DC6CABEDD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XYShareSdk_Tests";
+			productName = "Pods-XYShareSdk_Tests";
+			productReference = 69AD40C3875078575F7D3C9C29E7EBFE /* libPods-XYShareSdk_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92CB175EA3672955D8C4EAE5396A67BA /* Weibo-Weibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B59FA586C08E017537BF0494A6B2FF /* Build configuration list for PBXNativeTarget "Weibo-Weibo" */;
+			buildPhases = (
+				632D36141569A4B93417C18D70F81D72 /* Sources */,
+				0585F5C93749B863F300D6D672BC1EF1 /* Frameworks */,
+				914F8A02DF2AC2084BBEC8AA75384568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weibo-Weibo";
+			productName = "Weibo-Weibo";
+			productReference = 320323F333E68F685BE0F9DC3F54E0BC /* Weibo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DBC9A0AF6D4571D059D2AF2422F2BD6E /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E640E0F46EE3F4F8AA74467DDBB0DD /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				CD3C1EABD2FDE02CC4B8D15D740ED83C /* Sources */,
+				310ABB239CF60D033312438242D4AD2F /* Frameworks */,
+				E8396AAECA7B0061597C8C1AB72E27FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = 55690EC76B79ADBF347F589F49D93081 /* libAspects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7C71236595CC96058D348F19DF005C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC9A0AF6D4571D059D2AF2422F2BD6E /* Aspects */,
+				787080847E9BB7F4D605267933710B3D /* Pods-XYShareSdk_Example */,
+				9220519374CDCDAAF28AC0BC8CA420A3 /* Pods-XYShareSdk_Tests */,
+				92CB175EA3672955D8C4EAE5396A67BA /* Weibo-Weibo */,
+				45406CDF63DAB33158DB05B8EF335B93 /* XYShareSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914F8A02DF2AC2084BBEC8AA75384568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A2DF763ED0C3480D347C104CDFE8A3 /* WeiboSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD5820EEE006114BBC798622B3FE71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433799C564927DB163D94BB6C25B62C3 /* QQShareModule.m in Sources */,
+				8E49469CD284AD2D2B67E3E1A369BDD4 /* ShareButton.m in Sources */,
+				85AB01FBD5BABB90B95A8EAA6D070267 /* ShareDataModel.m in Sources */,
+				400FB8559B5A75DCE647D6A0DAEDFD54 /* ShareModule.m in Sources */,
+				14EE21FA9B538F205F2399DAB02DB16F /* ShareSDKManager.m in Sources */,
+				825002D07DD059EC04AD314FD8A4D7E3 /* ShareView.m in Sources */,
+				0CD22FB68C415F01D2B0D2378D587B5A /* WeChatShareModule.m in Sources */,
+				29D075D4900CA1DC8E7C8C9824422728 /* WeiboShareModule.m in Sources */,
+				A939F173E196D451C91AAB2FA2CBDE89 /* XYShareSdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632D36141569A4B93417C18D70F81D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678DC1C3278C5B1A4A98E5F9E763A2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DA4F9524EA550E32D16117ABEBC695 /* Pods-XYShareSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AB1035B0C5BE11FD50100360E399B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E18E34830EE56C9D2C1E3FBC3CD48E /* Pods-XYShareSdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3C1EABD2FDE02CC4B8D15D740ED83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D44EA2CA43A535F084E48871AFF74C /* Aspects-dummy.m in Sources */,
+				FC33E7B450A96626E3956F557A061B9C /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025F859CA97CA33D3A0741889EC3686E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Weibo-Weibo";
+			target = 92CB175EA3672955D8C4EAE5396A67BA /* Weibo-Weibo */;
+			targetProxy = F519C0FAD1A356B52EA4AAE1B430E577 /* PBXContainerItemProxy */;
+		};
+		22514C217650076B717101668A7C209B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = DBC9A0AF6D4571D059D2AF2422F2BD6E /* Aspects */;
+			targetProxy = 26C5987308DB78693C9DD73563A81759 /* PBXContainerItemProxy */;
+		};
+		61F575EA92E899BE74DCFE1270353787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XYShareSdk;
+			target = 45406CDF63DAB33158DB05B8EF335B93 /* XYShareSdk */;
+			targetProxy = 7F068722AB21BECAE66C999EF1375D02 /* PBXContainerItemProxy */;
+		};
+		7A763DA3FDB26A13EF161AA4F83C75AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = DBC9A0AF6D4571D059D2AF2422F2BD6E /* Aspects */;
+			targetProxy = D1FE51C739BB00067AEAD0D5F71E4072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D742011A6A14C8A82EEDFDD9B3F2992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D9B30B60B788F851DDDF51D8E3B5CE /* Pods-XYShareSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0E6CAB7DE7E8E64A18E20DD5DEF63B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724B2CD6D3D7DD9EF9C33B935F529208 /* Pods-XYShareSdk_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		31D4C2CED50DDC2EBAC5B2AD027A05B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3111C8B62C7A96F0169DFD573D07F5A2 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4998EF81BADE3F3AD9DEBE0472A8F092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17ED88723CA6458025730B5236515B2 /* Pods-XYShareSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		63C95F004B84DADF61C20EFD38B87F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6FE4DF65C75BC6017CF9C99B080A8F /* XYShareSdk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XYShareSdk/XYShareSdk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		66B50ACA549A9A071661D796363ECC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6FE4DF65C75BC6017CF9C99B080A8F /* XYShareSdk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XYShareSdk/XYShareSdk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		69B0D61C4656D6EDEFD4C122D4EC31BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3111C8B62C7A96F0169DFD573D07F5A2 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E2BFEDE15901B8ACC006711FB8309E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Weibo/ResourceBundle-Weibo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Weibo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B576D5290FCC4915001C2D405B7E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2FD9BFF6985AEC6C5B77DB643D38CE /* Pods-XYShareSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7ACDEE36B3EC405F6923F1EA055FFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Weibo/ResourceBundle-Weibo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Weibo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDCEBD6F7310C90ECD0669420E580D7 /* Build configuration list for PBXNativeTarget "Pods-XYShareSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D742011A6A14C8A82EEDFDD9B3F2992 /* Debug */,
+				0E6CAB7DE7E8E64A18E20DD5DEF63B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B59FA586C08E017537BF0494A6B2FF /* Build configuration list for PBXNativeTarget "Weibo-Weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2BFEDE15901B8ACC006711FB8309E3 /* Debug */,
+				B7ACDEE36B3EC405F6923F1EA055FFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6F5A2D8365D55A383E1668F8049946 /* Build configuration list for PBXNativeTarget "XYShareSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C95F004B84DADF61C20EFD38B87F2F /* Debug */,
+				66B50ACA549A9A071661D796363ECC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708562E94B87D69B423CA15C87DC8669 /* Build configuration list for PBXNativeTarget "Pods-XYShareSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4998EF81BADE3F3AD9DEBE0472A8F092 /* Debug */,
+				87B576D5290FCC4915001C2D405B7E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E640E0F46EE3F4F8AA74467DDBB0DD /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D4C2CED50DDC2EBAC5B2AD027A05B4 /* Debug */,
+				69B0D61C4656D6EDEFD4C122D4EC31BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
