@@ -1,1 +1,0 @@
-../../../../TencentOpenAPIV2_3/TencentOpenAPI/TencentOpenAPI.framework/Headers/sdkdef.h

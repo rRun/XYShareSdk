@@ -1,0 +1,1 @@
+../../../../../../XYShareSdk/Assets/TencentOpenAPI.framework/Headers/TencentApiInterface.h

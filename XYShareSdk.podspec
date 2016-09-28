@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'XYShareSdk/Classes/**/*'
 
-  s.ios.vendored_frameworks = "TencentOpenAPIV2_3.framework"
+  s.resources = "XYShareSdk/Assets/TencentOpenApi_IOS_Bundle.bundle"
 
   # s.resource_bundles = {
   #   'XYShareSdk' => ['XYShareSdk/Assets/*.png']
@@ -42,10 +42,11 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
     s.dependency 'WeChatSDK', '~> 1.7.3'
-    s.dependency 'TencentOpenAPIV2_3'
+  # s.dependency 'XYTencentOpenAPI', '~> 3.1.0'
     s.dependency 'Weibo', '~> 2.4.2'
     s.dependency 'Aspects', '~> 1.4.1'
 
+    s.vendored_frameworks = 'XYShareSdk/Assets/TencentOpenAPI.framework'
 end
 
 

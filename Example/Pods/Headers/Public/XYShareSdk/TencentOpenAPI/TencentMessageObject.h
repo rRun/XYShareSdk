@@ -1,0 +1,1 @@
+../../../../../../XYShareSdk/Assets/TencentOpenAPI.framework/Headers/TencentMessageObject.h

@@ -19,16 +19,11 @@
     "ios": "7.0"
   },
   "source_files": "XYShareSdk/Classes/**/*",
-  "ios": {
-    "vendored_frameworks": "TencentOpenAPIV2_3.framework"
-  },
+  "resources": "XYShareSdk/Assets/TencentOpenApi_IOS_Bundle.bundle",
   "frameworks": "UIKit",
   "dependencies": {
     "WeChatSDK": [
       "~> 1.7.3"
-    ],
-    "TencentOpenAPIV2_3": [
-
     ],
     "Weibo": [
       "~> 2.4.2"
@@ -36,5 +31,6 @@
     "Aspects": [
       "~> 1.4.1"
     ]
-  }
+  },
+  "vendored_frameworks": "XYShareSdk/Assets/TencentOpenAPI.framework"
 }
