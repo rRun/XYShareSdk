@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'XYShareSdk/Classes/**/*'
 
-#s.resources = "XYShareSdk/Assets/TencentOpenApi_IOS_Bundle.bundle"
+ #s.resources = "XYShareSdk/Assets/TencentOpenApi_IOS_Bundle.bundle"
 
   s.exclude_files = 'XYShareSdk/Classes/SHAREMODULE/QQShareModule.{h,m}'
 

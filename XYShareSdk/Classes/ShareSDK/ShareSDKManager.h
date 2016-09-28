@@ -12,11 +12,6 @@
 #import "ShareDataModel.h"
 #import "ShareModule.h"
 
-//子组件
-//#import "QQShareModule.h"
-#import "WeiboShareModule.h"
-#import "WeChatShareModule.h"
-
 //ui框架
 #import "ShareView.h"
 
