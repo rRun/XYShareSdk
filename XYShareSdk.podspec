@@ -33,7 +33,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'XYShareSdk/Classes/**/*'
 
-  s.resources = "XYShareSdk/Assets/TencentOpenApi_IOS_Bundle.bundle"
+#s.resources = "XYShareSdk/Assets/TencentOpenApi_IOS_Bundle.bundle"
+
+  s.exclude_files = 'XYShareSdk/Classes/SHAREMODULE/QQShareModule.{h,m}'
 
   # s.resource_bundles = {
   #   'XYShareSdk' => ['XYShareSdk/Assets/*.png']
@@ -46,7 +48,7 @@ Pod::Spec.new do |s|
     s.dependency 'Weibo', '~> 2.4.2'
     s.dependency 'Aspects', '~> 1.4.1'
 
-    s.vendored_frameworks = 'XYShareSdk/Assets/TencentOpenAPI.framework'
+#s.vendored_frameworks = 'XYShareSdk/Assets/TencentOpenAPI.framework'
 end
 
 

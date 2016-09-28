@@ -13,7 +13,7 @@
 #import "ShareModule.h"
 
 //子组件
-#import "QQShareModule.h"
+//#import "QQShareModule.h"
 #import "WeiboShareModule.h"
 #import "WeChatShareModule.h"
 
